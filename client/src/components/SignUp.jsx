@@ -135,7 +135,7 @@ function SignUp() {
               />
               {!data.error ? "" : alert(data.error.cPassword, "red")}
             </div>
-            <button onClick={(e) => formSubmit()} className="h-10 text-extralight ml-[90px] fontFamily: Roboto text-white text-lg w-80 rounded-3xl mt-10 hover:animate-bounce" style={{background: `url(${logo6})`}} type="submit">S&nbsp;I&nbsp;G&nbsp;N&nbsp;U&nbsp;P</button>
+            <a href="/Login"><button onClick={(e) => formSubmit()} className="h-10 text-extralight ml-[90px] fontFamily: Roboto text-white text-lg w-80 rounded-3xl mt-10 hover:animate-bounce" style={{background: `url(${logo6})`}} type="submit">S&nbsp;I&nbsp;G&nbsp;N&nbsp;U&nbsp;P</button></a>
           </form>
         </div>
       </div>

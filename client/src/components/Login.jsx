@@ -81,7 +81,7 @@ function Login() {
             />
             {!data.error ? "" : alert(data.error)}
             </div>
-            <button onClick={(e) => formSubmit()} className="h-10 text-extralight ml-[90px] fontFamily: Roboto text-white text-lg w-80 rounded-3xl mt-10 hover:animate-bounce" style={{background: `url(${logo6})`}} type="submit">L&nbsp;O&nbsp;G&nbsp;I&nbsp;N</button>
+            <a href="/Plans"><button onClick={(e) => formSubmit()} className="h-10 text-extralight ml-[90px] fontFamily: Roboto text-white text-lg w-80 rounded-3xl mt-10 hover:animate-bounce" style={{background: `url(${logo6})`}} type="submit">L&nbsp;O&nbsp;G&nbsp;I&nbsp;N</button></a>
           </form>
         </div>
       </div>
